@@ -1,0 +1,15 @@
+[project]
+name = "yiu_comfy_nodes"
+description = "Useful to me. Might be to you."
+version = "0.0.0.20250623"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = "yiu_comfy_nodes"
+DisplayName = "yiu_comfy_nodes"
+Icon = ""
+includes = []
