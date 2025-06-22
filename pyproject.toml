@@ -9,7 +9,7 @@ Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 #  Used by Comfy Registry https://registry.comfy.org
 
 [tool.comfy]
-PublisherId = "yiu_comfy_nodes"
+PublisherId = "leizingyiu"
 DisplayName = "yiu_comfy_nodes"
 Icon = ""
 includes = []
