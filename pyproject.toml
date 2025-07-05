@@ -1,15 +1,27 @@
 [project]
 name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
-version = "0.0.0.20250623"
+authors = [
+    { name = "leizingyiu" }
+]
+keywords = ["comfyui", "image-processing"]
+
+version = "0.0.1.20250705"
 license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "torch",
+    "numpy",
+    "Pillow"
+]
+
 
 [project.urls]
 Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
-#  Used by Comfy Registry https://registry.comfy.org
 
-[tool.comfy]
+[tool.comfy_custom_node]
 PublisherId = "leizingyiu"
 DisplayName = "yiu_comfy_nodes"
 Icon = ""
-includes = []
+entry_point = "yiu_comfy_nodes"
+categories = ["Image", "Utility"]

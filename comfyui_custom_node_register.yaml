@@ -1,0 +1,14 @@
+name: yiu_comfy_nodes
+description: Useful to me. Might be to you.
+author: leizingyiu
+categories:
+  - Image
+  - Utility
+entry_point: yiu_comfy_nodes
+nodes:
+  - class_name: yiuImgCnvPlacer
+    module: yiu_comfy_nodes.yiu_img_cnv_placer
+  - class_name: yiuFitItm2Msk
+    module: yiu_comfy_nodes.yiu_fit_itm_2_msk
+  - class_name: yiuItmCropper
+    module: yiu_comfy_nodes.yiu_itm_cropper
