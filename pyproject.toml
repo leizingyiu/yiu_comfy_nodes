@@ -24,5 +24,6 @@ Icon = ""
 
 
 [tool.comfy_custom_node]
+id = "yiu_comfy_nodes"
 entry_point = "yiu_comfy_nodes"
 categories = ["Image", "Utility"]
