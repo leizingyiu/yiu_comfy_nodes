@@ -18,10 +18,11 @@ dependencies = [
 Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 
 [tool.comfy]
-publisher-id = "yiu"
-
-[tool.comfy_custom_node]
+PublisherId = "leizingyiu" 
 DisplayName = "yiu_comfy_nodes"
 Icon = ""
+
+
+[tool.comfy_custom_node]
 entry_point = "yiu_comfy_nodes"
 categories = ["Image", "Utility"]
