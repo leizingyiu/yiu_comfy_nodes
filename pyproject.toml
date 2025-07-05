@@ -1,14 +1,10 @@
+# pyproject.toml
 [project]
 name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
-authors = [
-    { name = "leizingyiu" }
-]
-keywords = ["comfyui", "image-processing"]
 version = "0.0.1.20250705"
-license = {file = "LICENSE"}
-requires-python = ">=3.8"
-dependencies = [
+license = { file = "LICENSE.txt" }
+dependencies  = [
     "torch",
     "numpy",
     "Pillow"
@@ -20,10 +16,4 @@ Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 [tool.comfy]
 PublisherId = "leizingyiu" 
 DisplayName = "yiu_comfy_nodes"
-Icon = ""
-
-
-[tool.comfy_custom_node]
-id = "yiu_comfy_nodes"
-entry_point = "yiu_comfy_nodes"
-categories = ["Image", "Utility"]
+Icon = "https://leizingyiu.github.io/apps/animated_favicon.gif"

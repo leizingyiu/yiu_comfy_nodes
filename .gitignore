@@ -14,3 +14,4 @@ yiu_comfy_nodes.egg-info/top_level.txt
 yiu_comfy_nodes/__pycache__/__init__.cpython-312.pyc
 yiu_comfy_nodes/__pycache__/yiu_fit_itm_2_msk.cpython-312.pyc
 yiu_comfy_nodes/__pycache__/yiu_img_cnv_placer.cpython-312.pyc
+publish_node.py
