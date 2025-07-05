@@ -20,7 +20,7 @@ dependencies = [
 Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 
 [tool.comfy_custom_node]
-PublisherId = "leizingyiu"
+PublisherId = "yiu"
 DisplayName = "yiu_comfy_nodes"
 Icon = ""
 entry_point = "yiu_comfy_nodes"
