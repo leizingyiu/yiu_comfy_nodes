@@ -2,8 +2,8 @@
 [project]
 name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
-version = "0.0.1.20250705"
-license = { file = "LICENSE.txt" }
+version = "0.0.1+20250705"
+license = "AGPL"
 dependencies  = [
     "torch",
     "numpy",
@@ -17,3 +17,4 @@ Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 PublisherId = "leizingyiu" 
 DisplayName = "yiu_comfy_nodes"
 Icon = "https://leizingyiu.github.io/apps/animated_favicon.gif"
+supported_comfyui_version = ">=1.0.0" 
