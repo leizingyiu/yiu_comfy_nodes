@@ -1,3 +1,6 @@
+[中文说明](https://github.com/leizingyiu/yiu_comfy_nodes/blob/main/README.md) | [English Version readme](https://github.com/leizingyiu/yiu_comfy_nodes/blob/main/README_en.md)
+
+
 # yiu_comfy_nodes
 
 这是我在用comfyUI的过程中，频繁用到的小工具，希望对你也有用。
