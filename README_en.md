@@ -1,3 +1,5 @@
+[中文说明](https://github.com/leizingyiu/yiu_comfy_nodes/blob/main/README.md) | [English Version readme](https://github.com/leizingyiu/yiu_comfy_nodes/blob/main/README_en.md)
+
 
 # yiu_comfy_nodes
 
