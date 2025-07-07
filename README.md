@@ -42,6 +42,8 @@
 ## 使用说明
 
 请参考仓库中的 DEMO 工作流
+![yiu_comfy_nodes_demo](https://raw.githubusercontent.com/leizingyiu/yiu_comfy_nodes/refs/heads/main/yiu_demo_workflow.png "这是一个 Demo 工作流图")
+
 
 ## 许可协议
 
