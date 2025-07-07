@@ -1,17 +1,18 @@
 from googletrans import Translator
 
-# 创建翻译器
 translator = Translator()
 
-# 读取中文 README.md
 with open("README.md", "r", encoding="utf-8") as f:
-    text = f.read()
+    lines = f.readlines()
 
-# 翻译成英文
-result = translator.translate(text, src='zh-CN', dest='en')
+first_line = lines[0]
 
-# 写入英文 README_en.md
+text_to_translate = "".join(lines[1:])
+
+result = translator.translate(text_to_translate, src='zh-CN', dest='en')
+
 with open("README_en.md", "w", encoding="utf-8") as f:
-    f.write(result.text)
-
-print("✅ Translated README.md to README_en.md")
+    f.write(first_line)        
+    f.write(result.text)       
+    
+print("✅ Translated README.md to README_en.md (skipped first line)")
