@@ -4,11 +4,7 @@ name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
 version = "0.0.1+20250710"
 license = "AGPL-3.0-only"
-dependencies  = [
-    "torch",
-    "numpy",
-    "Pillow"
-]
+dependencies  = ["torch","numpy","Pillow"]
 
 [project.urls]
 Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
@@ -17,5 +13,3 @@ Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
 PublisherId = "leizingyiu" 
 DisplayName = "yiu_comfy_nodes"
 Icon = "https://leizingyiu.github.io/apps/animated_favicon.gif"
-supported_comfyui_version = ">=1.0.0" 
-channel = "default"
