@@ -2,7 +2,7 @@
 [project]
 name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
-version = "0.0.1+20250710-1"
+version = "0.0.1+20250710.1"
 license = "AGPL-3.0-only"
 dependencies  = ["torch","numpy","Pillow"]
 
