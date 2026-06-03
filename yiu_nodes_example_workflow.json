@@ -1,0 +1,2894 @@
+{
+  "id": "8776fd98-3a79-4ef6-b6e1-8eedb88eab9b",
+  "revision": 0,
+  "last_node_id": 156,
+  "last_link_id": 455,
+  "nodes": [
+    {
+      "id": 20,
+      "type": "PreviewImage",
+      "pos": [
+        1300,
+        500
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 21
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 125,
+      "type": "PreviewImage",
+      "pos": [
+        2320,
+        -740
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 372
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 124,
+      "type": "MaskPreview",
+      "pos": [
+        2000,
+        -740
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 370
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 123,
+      "type": "PreviewImage",
+      "pos": [
+        2160,
+        -740
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 371
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 122,
+      "type": "PreviewImage",
+      "pos": [
+        1840,
+        -740
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 369
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 130,
+      "type": "PreviewImage",
+      "pos": [
+        2320,
+        -420
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 386
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 131,
+      "type": "PreviewImage",
+      "pos": [
+        2160,
+        -420
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 385
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 133,
+      "type": "MaskPreview",
+      "pos": [
+        2000,
+        -420
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 384
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 132,
+      "type": "PreviewImage",
+      "pos": [
+        1840,
+        -420
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 383
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 126,
+      "type": "easy showAnything",
+      "pos": [
+        2480,
+        -740
+      ],
+      "size": [
+        240,
+        360
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 373
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "--- INPUT ---\nitem_image: 产品图片，可先经过抠图节点处理后接入\nitem_mask: 产品图片遮罩，可从抠图节点获取\ncanvas_image: 背景图片，建议使用场景参考图片\ncanvas_mask: 背景遮罩，产品需要放在背景中的什么位置，就在背景遮罩中绘制\nobject_fit: 产品在遮罩尺寸中，填充或适应\nbg_color: 输出时使用的背景颜色，默认黑色\n\n--- OUTPUT ---\nitem_on_transparent: 调整好位置和缩放的产品，在透明背景上\nitem_mask: 调整好位置和缩放的产品遮罩\nitem_on_bgcolor: 调整好位置和缩放的产品遮罩，在背景颜色上\nitem_on_canvas: 调整好位置和缩放的产品遮罩，在原背景图片上\nhelp_text: 帮助信息\n\n📖 将图1(item)物品放置在图2(canvas)的遮罩中。物品(item)图片建议先抠图，遮罩(canvas_mask)决定物品位置。"
+      ]
+    },
+    {
+      "id": 120,
+      "type": "ImageScaleBy",
+      "pos": [
+        700,
+        -960
+      ],
+      "size": [
+        210,
+        100
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 452
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            376
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageScaleBy",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "upscale_method": true,
+            "scale_by": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "lanczos",
+        2
+      ]
+    },
+    {
+      "id": 128,
+      "type": "GetImageSize",
+      "pos": [
+        700,
+        -800
+      ],
+      "size": [
+        210,
+        140
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 376
+        }
+      ],
+      "outputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            377
+          ]
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            378
+          ]
+        },
+        {
+          "name": "batch_size",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "GetImageSize",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 129,
+      "type": "EmptyImage",
+      "pos": [
+        700,
+        -600
+      ],
+      "size": [
+        270,
+        130
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 377
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 378
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            379,
+            380,
+            387,
+            389
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "width": true,
+            "height": true,
+            "batch_size": true,
+            "color": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        512,
+        512,
+        1,
+        4227821
+      ]
+    },
+    {
+      "id": 136,
+      "type": "MaskPreview",
+      "pos": [
+        1020,
+        -420
+      ],
+      "size": [
+        280,
+        250
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 388
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 127,
+      "type": "yiuFitItm2Msk",
+      "pos": [
+        1520,
+        -420
+      ],
+      "size": [
+        310,
+        170
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "item_image",
+          "type": "IMAGE",
+          "link": 381
+        },
+        {
+          "name": "item_mask",
+          "type": "MASK",
+          "link": 382
+        },
+        {
+          "name": "canvas_image",
+          "type": "IMAGE",
+          "link": 380
+        },
+        {
+          "name": "canvas_mask",
+          "type": "MASK",
+          "link": 375
+        }
+      ],
+      "outputs": [
+        {
+          "name": "item_on_transparent",
+          "type": "IMAGE",
+          "links": [
+            383
+          ]
+        },
+        {
+          "name": "item_mask",
+          "type": "MASK",
+          "links": [
+            384
+          ]
+        },
+        {
+          "name": "item_on_bgcolor",
+          "type": "IMAGE",
+          "links": [
+            385
+          ]
+        },
+        {
+          "name": "item_on_canvas",
+          "type": "IMAGE",
+          "links": [
+            386
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuFitItm2Msk",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "object_fit": true,
+            "bg_color": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "fill",
+        "#000000"
+      ]
+    },
+    {
+      "id": 121,
+      "type": "yiuImgToZoneMask",
+      "pos": [
+        1020,
+        -740
+      ],
+      "size": [
+        290,
+        250
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 389
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            366,
+            375,
+            388
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuImgToZoneMask",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "x_pos": true,
+            "y_pos": true,
+            "x_scale": true,
+            "y_scale": true,
+            "lock_yscale_to_xscale": true,
+            "radius": true,
+            "feather_radius": true,
+            "invert": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        50,
+        50,
+        25,
+        63.3,
+        false,
+        20,
+        0,
+        false
+      ]
+    },
+    {
+      "id": 114,
+      "type": "easy showAnything",
+      "pos": [
+        1040,
+        2340
+      ],
+      "size": [
+        210,
+        90
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 446
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "step total",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "3"
+      ]
+    },
+    {
+      "id": 113,
+      "type": "easy showAnything",
+      "pos": [
+        1040,
+        2200
+      ],
+      "size": [
+        230,
+        90
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 445
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "step index",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "2"
+      ]
+    },
+    {
+      "id": 115,
+      "type": "easy showAnything",
+      "pos": [
+        1040,
+        2060
+      ],
+      "size": [
+        210,
+        90
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 443
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "loop state",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "{\n    \"scale\": 2.8933738425925926,\n    \"step_index\": 2,\n    \"step_total\": 3,\n    \"orig_h\": 6912,\n    \"orig_w\": 6912,\n    \"rows\": 7,\n    \"cols\": 7,\n    \"overlap_x\": 205,\n    \"overlap_y\": 205,\n    \"lap_x\": 205,\n    \"lap_y\": 205,\n    \"scale_every_time\": 3.0,\n    \"total_scale\": 26.040364583333332,\n    \"log_steps\": 2.967059309058168,\n    \"total_scale_floor\": 26,\n    \"total_scale_frac\": 0.04036458333333215,\n    \"last_step_scale\": 2.8933738425925926,\n    \"target_w\": 19999,\n    \"target_h\": 19999,\n    \"w0\": 768,\n    \"h0\": 768,\n    \"current_image_h\": 6912,\n    \"current_image_w\": 6912,\n    \"max_tile_size\": 1026,\n    \"min_tile_overlap_px\": 50,\n    \"tile_overlap_ratio\": 0.2\n}"
+      ]
+    },
+    {
+      "id": 117,
+      "type": "easy showAnything",
+      "pos": [
+        1040,
+        1920
+      ],
+      "size": [
+        230,
+        90
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 442
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "scale this time",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "2.8933738425925926"
+      ]
+    },
+    {
+      "id": 116,
+      "type": "easy showAnything",
+      "pos": [
+        1040,
+        1780
+      ],
+      "size": [
+        210,
+        90
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 437
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "flow",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "stub"
+      ]
+    },
+    {
+      "id": 135,
+      "type": "PreviewImage",
+      "pos": [
+        700,
+        -420
+      ],
+      "size": [
+        260,
+        250
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 387
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 13,
+      "type": "yiuFitItm2Msk",
+      "pos": [
+        1520,
+        -660
+      ],
+      "size": [
+        310,
+        170
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "item_image",
+          "type": "IMAGE",
+          "link": 367
+        },
+        {
+          "name": "item_mask",
+          "type": "MASK",
+          "link": 368
+        },
+        {
+          "name": "canvas_image",
+          "type": "IMAGE",
+          "link": 379
+        },
+        {
+          "name": "canvas_mask",
+          "type": "MASK",
+          "link": 366
+        }
+      ],
+      "outputs": [
+        {
+          "name": "item_on_transparent",
+          "type": "IMAGE",
+          "links": [
+            369
+          ]
+        },
+        {
+          "name": "item_mask",
+          "type": "MASK",
+          "links": [
+            370
+          ]
+        },
+        {
+          "name": "item_on_bgcolor",
+          "type": "IMAGE",
+          "links": [
+            371
+          ]
+        },
+        {
+          "name": "item_on_canvas",
+          "type": "IMAGE",
+          "links": [
+            372
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": [
+            373
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuFitItm2Msk",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "object_fit": true,
+            "bg_color": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "fit",
+        "#000000"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "MaskPreview",
+      "pos": [
+        1460,
+        60
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 37
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 18,
+      "type": "MaskPreview",
+      "pos": [
+        1460,
+        500
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 20
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 19,
+      "type": "MaskPreview",
+      "pos": [
+        1620,
+        500
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 19
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 21,
+      "type": "easy showAnything",
+      "pos": [
+        1780,
+        500
+      ],
+      "size": [
+        230,
+        300
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "--- INPUT ---\nori_img: 原始图像\nori_mask: 原始遮罩\ncutout_img: 抠图结果图像\ncutout_mask: 抠图结果遮罩\npadding: 四周保留的边距\nx_pos: 在边距中，图片在左边还是右边\ny_pos: 在边距中，图片在上边还是下边\n\n--- OUTPUT ---\ncroped img: 裁切后的图像\ncroped msk: 裁切并合并(减)的遮罩\ncroped_msk_i: 裁切并合并(加)的遮罩\n\n📖 使用说明：输入原图的图像和遮罩，以及抠图结果的图像和遮罩，根据抠图结果遮罩的大小和位置，对抠图结果进行裁切输出 croped_img ; 将原图遮罩反转叠再抠图结果遮罩上，并裁切输出为 croped_msk。"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "MaskPreview",
+      "pos": [
+        1200,
+        1020
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 4
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 6,
+      "type": "MaskPreview",
+      "pos": [
+        1360,
+        1020
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 5
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "MaskPreview",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 9,
+      "type": "PreviewImage",
+      "pos": [
+        1520,
+        1020
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 7
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 10,
+      "type": "PreviewImage",
+      "pos": [
+        1680,
+        1020
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 8
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 4,
+      "type": "PreviewImage",
+      "pos": [
+        1040,
+        1020
+      ],
+      "size": [
+        140,
+        250
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 8,
+      "type": "easy showAnything",
+      "pos": [
+        1840,
+        1020
+      ],
+      "size": [
+        480,
+        380
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "--- INPUT ---\nimage: 需要扩图的图片\nmask: 需要扩图图片上绘制的蒙版\nresolution: SDXL与FLUX分辨率，用作输出图片的画板尺寸\nwidth_overwrite: 宽度覆盖，当使用非上述分辨率时，将覆盖分辨率的宽度。\nheight_overwrite: 高度覆盖，当使用非上述分辨率时，将覆盖分辨率的高度。\nx_pos: X轴位置，图片在画板的最左边还是最右边\ny_pos: Y轴位置，图片在画板的最上边还是最下边\nscale: 缩放，图片相对画板的占比\nscale_ref_canvas: 缩放参考：true以画布为参考（100%=适配画布），false以自身为参考（100%=原尺寸）\nhex_color: 带井号的HEX色值，例如 #000000\nfeather_radius: 羽化半径，扩图时羽化的范围\n\n--- OUTPUT ---\nimage: 已经放在扩展画板中的图像\noriginal_mask: 已经放在扩展画板中的原来的遮罩\nexpand_mask: 扩图节点需要的扩展遮罩\nbg_color_image: 以hex色值为背景色合成后的输出图像\nedge_expand_image: 以图片边缘向外放射扩展合成后的输出图像\nhelp_text: 帮助信息\n\n📖 使用说明：将输入的image 、 mask，根据x_pos（水平方向的位置）、y_pos（垂直方向的位置）、scale（在画板中的占比），放置在 resolution（画布分辨率）大小的画板中。\n            输入的image建议先经过抠图节点处理。\n            输出的image 和 expand_mask 可等效于“外补画板”，接到扩图工作流中。\n            输出的 original_mask 为对应缩放移动的输入的mask，可对应接到Lama，或者接到我的 yiu_fit_itm_2_msk 节点的 camvas_mask 。"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "yiuImgCnvPlacer",
+      "pos": [
+        740,
+        1020
+      ],
+      "size": [
+        290,
+        350
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 449
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 455
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "original_mask",
+          "type": "MASK",
+          "links": [
+            4
+          ]
+        },
+        {
+          "name": "expand_mask",
+          "type": "MASK",
+          "links": [
+            5
+          ]
+        },
+        {
+          "name": "bg_image",
+          "type": "IMAGE",
+          "links": [
+            7
+          ]
+        },
+        {
+          "name": "edge_expand_image",
+          "type": "IMAGE",
+          "links": [
+            8
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuImgCnvPlacer",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "resolution": true,
+            "width_overwrite": true,
+            "height_overwrite": true,
+            "x_pos": true,
+            "y_pos": true,
+            "scale": true,
+            "scale_ref_canvas": true,
+            "hex_color": true,
+            "feather_radius": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "1024x1024",
+        0,
+        0,
+        1.5,
+        86.3,
+        100,
+        false,
+        "#000000",
+        20
+      ]
+    },
+    {
+      "id": 109,
+      "type": "easy showAnything",
+      "pos": [
+        720,
+        2260
+      ],
+      "size": [
+        260,
+        300
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 448
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "help text 展示任何",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "--- INPUT ---\nimage: 输入图像（第 0 步的初始图像）\ntarget_width: 目标宽度（px）。为 0 时会根据 target_height 按原图比例推导\ntarget_height: 目标高度（px）。为 0 时会根据 target_width 按原图比例推导\nscale_every_time: 每一步的基础放大倍率（>1）。最后一步会自动补足到目标倍率\nmax_tile_size: tile 最大尺寸（px）。建议 1024/1536。设为 0 表示关闭 tiling（整图直通）\nmin_tile_overlap_px: 最小接缝宽度（px），对应 default_OVERLAP 这种固定值。设为 0 表示接缝最小值为 0\ntile_overlap_ratio: 接缝比例（0~1）。与 min_tile_overlap_px 组合更稳\n\n--- OUTPUT ---\nflow: 循环连线（必须连接到 END.flow）\nimage: 本步要交给用户放大节点处理的图像（循环内会自动更新为上一步输出）\nscale_this_time: 本步推荐放大倍率（大多数步=scale_every_time，最后一步=补足倍率）\nloop_state: 内部循环状态，连接到 END.loop_state\nprint(step_index): 输出当前步索引（从 0 开始）\nprint(step_total): 输出总步数\nimage_last_step: 本轮开始时的整图，也就是上一轮结束后的整图，可用于备份/保存\nhelp_text: 帮助信息\n\n📖 这是循环的起点。把任意放大节点夹在 START 和 END 之间，并连接 START.flow -> END.flow。"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "yiuItmCropper",
+      "pos": [
+        1000,
+        500
+      ],
+      "size": [
+        270,
+        170
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "ori_img",
+          "type": "IMAGE",
+          "link": 450
+        },
+        {
+          "name": "ori_mask",
+          "type": "MASK",
+          "link": 38
+        },
+        {
+          "name": "cutout_img",
+          "type": "IMAGE",
+          "link": 402
+        },
+        {
+          "name": "cutout_mask",
+          "type": "MASK",
+          "link": 403
+        }
+      ],
+      "outputs": [
+        {
+          "name": "croped_img",
+          "type": "IMAGE",
+          "links": [
+            21,
+            367,
+            381
+          ]
+        },
+        {
+          "name": "croped_msk",
+          "type": "MASK",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "croped_msk_i",
+          "type": "MASK",
+          "links": [
+            19,
+            368,
+            382
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuItmCropper",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "padding": true,
+            "x_pos": true,
+            "y_pos": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 106,
+      "type": "easy showAnything",
+      "pos": [
+        1560,
+        1910
+      ],
+      "size": [
+        240,
+        570
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "shape": 7,
+          "type": "*",
+          "link": 435
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "help text",
+      "properties": {
+        "Node name for S&R": "easy showAnything",
+        "cnr_id": "comfyui-easy-use",
+        "ver": "1.3.6",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "--- INPUT ---\nflow: 来自 START.flow 的循环连线（rawLink）\nloop_state: 来自 START.loop_state 的内部循环状态\nimage_upscaled: 来自用户放大节点（或节点组）的输出图像（会作为下一步输入图像）\n\n--- OUTPUT ---\nimage: 循环结束后的最终图像\nimage_step: 本步产出的图像（用于循环体内外接保存节点）\nprint(last_scale_applied): 输出本步倍率（来自 START.scale_this_time）\nprint(step_index): 输出当前步索引（来自 START）\nprint(step_total): 输出总步数（来自 START）\nhelp_text: 帮助信息\n\n📖 这是循环的终点。接收放大后的 image_upscaled，推进循环索引，并把图像回传给下一步。"
+      ]
+    },
+    {
+      "id": 143,
+      "type": "AutoDownloadBiRefNetModel",
+      "pos": [
+        710,
+        500
+      ],
+      "size": [
+        240,
+        110
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "BIREFNET",
+          "links": [
+            404
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AutoDownloadBiRefNetModel",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "General",
+        "AUTO",
+        "float16"
+      ]
+    },
+    {
+      "id": 142,
+      "type": "RembgByBiRefNet",
+      "pos": [
+        720,
+        660
+      ],
+      "size": [
+        170,
+        50
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "BIREFNET",
+          "link": 404
+        },
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 453
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            402
+          ]
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            403
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RembgByBiRefNet",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 28,
+      "type": "yiuImgToZoneMask",
+      "pos": [
+        1120,
+        60
+      ],
+      "size": [
+        290,
+        250
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 451
+        }
+      ],
+      "outputs": [
+        {
+          "name": "mask",
+          "type": "MASK",
+          "links": [
+            37,
+            38
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuImgToZoneMask",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "x_pos": true,
+            "y_pos": true,
+            "x_scale": true,
+            "y_scale": true,
+            "lock_yscale_to_xscale": true,
+            "radius": true,
+            "feather_radius": true,
+            "invert": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        54.6,
+        56,
+        52.1,
+        51.2,
+        false,
+        12.2,
+        0,
+        false
+      ]
+    },
+    {
+      "id": 144,
+      "type": "PreviewImage",
+      "pos": [
+        1300,
+        1780
+      ],
+      "size": [
+        210,
+        260
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 440
+        }
+      ],
+      "outputs": [],
+      "title": "last step  预览图像",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 145,
+      "type": "PreviewImage",
+      "pos": [
+        1300,
+        2080
+      ],
+      "size": [
+        210,
+        260
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 447
+        }
+      ],
+      "outputs": [],
+      "title": "last step  预览图像",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 31,
+      "type": "ImageScaleBy",
+      "pos": [
+        1040,
+        1620
+      ],
+      "size": [
+        250,
+        90
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 439
+        },
+        {
+          "name": "scale_by",
+          "type": "FLOAT",
+          "widget": {
+            "name": "scale_by"
+          },
+          "link": 441
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            432
+          ]
+        }
+      ],
+      "title": "替换成你需要的撑图节点",
+      "properties": {
+        "Node name for S&R": "ImageScaleBy",
+        "cnr_id": "comfy-core",
+        "ver": "0.14.1",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "upscale_method": true,
+            "scale_by": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "lanczos",
+        2
+      ]
+    },
+    {
+      "id": 153,
+      "type": "yiuUpscaleLoopEnd",
+      "pos": [
+        1560,
+        1780
+      ],
+      "size": [
+        230,
+        70
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "yiu_upscale_loop_flow",
+          "type": "FLOW_CONTROL",
+          "link": 438
+        },
+        {
+          "name": "loop_state",
+          "type": "YIU_UPSCALE_LOOP_STATE",
+          "link": 444
+        },
+        {
+          "name": "image_upscaled",
+          "type": "IMAGE",
+          "link": 432
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            433,
+            434
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": [
+            435
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuUpscaleLoopEnd",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 156,
+      "type": "LoadImage",
+      "pos": [
+        690,
+        -40
+      ],
+      "size": [
+        270,
+        320
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            449,
+            450,
+            451,
+            452,
+            453,
+            454
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            455
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "pasted/image (51).png",
+        "image"
+      ]
+    },
+    {
+      "id": 154,
+      "type": "yiuUpscaleLoopStart",
+      "pos": [
+        720,
+        1780
+      ],
+      "size": [
+        270,
+        430
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 454
+        }
+      ],
+      "outputs": [
+        {
+          "name": "yiu_upscale_loop_flow",
+          "type": "FLOW_CONTROL",
+          "links": [
+            437,
+            438
+          ]
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            439,
+            440
+          ]
+        },
+        {
+          "name": "scale_this_time",
+          "type": "FLOAT",
+          "links": [
+            441,
+            442
+          ]
+        },
+        {
+          "name": "loop_state",
+          "type": "YIU_UPSCALE_LOOP_STATE",
+          "links": [
+            443,
+            444
+          ]
+        },
+        {
+          "name": "print(step_index)",
+          "type": "INT",
+          "links": [
+            445
+          ]
+        },
+        {
+          "name": "print(step_total)",
+          "type": "INT",
+          "links": [
+            446
+          ]
+        },
+        {
+          "name": "image_last_step",
+          "type": "IMAGE",
+          "links": [
+            447
+          ]
+        },
+        {
+          "name": "help_text",
+          "type": "STRING",
+          "links": [
+            448
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "yiuUpscaleLoopStart",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        19999,
+        19999,
+        3,
+        1026,
+        50,
+        0.2
+      ]
+    },
+    {
+      "id": 152,
+      "type": "SaveImage",
+      "pos": [
+        1840,
+        2180
+      ],
+      "size": [
+        210,
+        290
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 434
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 150,
+      "type": "PreviewImage",
+      "pos": [
+        1850,
+        1780
+      ],
+      "size": [
+        200,
+        340
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 433
+        }
+      ],
+      "outputs": [],
+      "title": "预览图像 img",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": []
+    }
+  ],
+  "links": [
+    [
+      3,
+      2,
+      0,
+      4,
+      0,
+      "IMAGE"
+    ],
+    [
+      4,
+      2,
+      1,
+      5,
+      0,
+      "MASK"
+    ],
+    [
+      5,
+      2,
+      2,
+      6,
+      0,
+      "MASK"
+    ],
+    [
+      7,
+      2,
+      3,
+      9,
+      0,
+      "IMAGE"
+    ],
+    [
+      8,
+      2,
+      4,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      10,
+      2,
+      5,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      18,
+      14,
+      3,
+      21,
+      0,
+      "STRING"
+    ],
+    [
+      19,
+      14,
+      2,
+      19,
+      0,
+      "MASK"
+    ],
+    [
+      20,
+      14,
+      1,
+      18,
+      0,
+      "MASK"
+    ],
+    [
+      21,
+      14,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ],
+    [
+      37,
+      28,
+      0,
+      16,
+      0,
+      "MASK"
+    ],
+    [
+      38,
+      28,
+      0,
+      14,
+      1,
+      "MASK"
+    ],
+    [
+      366,
+      121,
+      0,
+      13,
+      3,
+      "MASK"
+    ],
+    [
+      367,
+      14,
+      0,
+      13,
+      0,
+      "IMAGE"
+    ],
+    [
+      368,
+      14,
+      2,
+      13,
+      1,
+      "MASK"
+    ],
+    [
+      369,
+      13,
+      0,
+      122,
+      0,
+      "IMAGE"
+    ],
+    [
+      370,
+      13,
+      1,
+      124,
+      0,
+      "MASK"
+    ],
+    [
+      371,
+      13,
+      2,
+      123,
+      0,
+      "IMAGE"
+    ],
+    [
+      372,
+      13,
+      3,
+      125,
+      0,
+      "IMAGE"
+    ],
+    [
+      373,
+      13,
+      4,
+      126,
+      0,
+      "STRING"
+    ],
+    [
+      375,
+      121,
+      0,
+      127,
+      3,
+      "MASK"
+    ],
+    [
+      376,
+      120,
+      0,
+      128,
+      0,
+      "IMAGE"
+    ],
+    [
+      377,
+      128,
+      0,
+      129,
+      0,
+      "INT"
+    ],
+    [
+      378,
+      128,
+      1,
+      129,
+      1,
+      "INT"
+    ],
+    [
+      379,
+      129,
+      0,
+      13,
+      2,
+      "IMAGE"
+    ],
+    [
+      380,
+      129,
+      0,
+      127,
+      2,
+      "IMAGE"
+    ],
+    [
+      381,
+      14,
+      0,
+      127,
+      0,
+      "IMAGE"
+    ],
+    [
+      382,
+      14,
+      2,
+      127,
+      1,
+      "MASK"
+    ],
+    [
+      383,
+      127,
+      0,
+      132,
+      0,
+      "IMAGE"
+    ],
+    [
+      384,
+      127,
+      1,
+      133,
+      0,
+      "MASK"
+    ],
+    [
+      385,
+      127,
+      2,
+      131,
+      0,
+      "IMAGE"
+    ],
+    [
+      386,
+      127,
+      3,
+      130,
+      0,
+      "IMAGE"
+    ],
+    [
+      387,
+      129,
+      0,
+      135,
+      0,
+      "IMAGE"
+    ],
+    [
+      388,
+      121,
+      0,
+      136,
+      0,
+      "MASK"
+    ],
+    [
+      389,
+      129,
+      0,
+      121,
+      0,
+      "IMAGE"
+    ],
+    [
+      402,
+      142,
+      0,
+      14,
+      2,
+      "IMAGE"
+    ],
+    [
+      403,
+      142,
+      1,
+      14,
+      3,
+      "MASK"
+    ],
+    [
+      404,
+      143,
+      0,
+      142,
+      0,
+      "BIREFNET"
+    ],
+    [
+      432,
+      31,
+      0,
+      153,
+      2,
+      "IMAGE"
+    ],
+    [
+      433,
+      153,
+      0,
+      150,
+      0,
+      "IMAGE"
+    ],
+    [
+      434,
+      153,
+      0,
+      152,
+      0,
+      "IMAGE"
+    ],
+    [
+      435,
+      153,
+      1,
+      106,
+      0,
+      "STRING"
+    ],
+    [
+      437,
+      154,
+      0,
+      116,
+      0,
+      "FLOW_CONTROL"
+    ],
+    [
+      438,
+      154,
+      0,
+      153,
+      0,
+      "FLOW_CONTROL"
+    ],
+    [
+      439,
+      154,
+      1,
+      31,
+      0,
+      "IMAGE"
+    ],
+    [
+      440,
+      154,
+      1,
+      144,
+      0,
+      "IMAGE"
+    ],
+    [
+      441,
+      154,
+      2,
+      31,
+      1,
+      "FLOAT"
+    ],
+    [
+      442,
+      154,
+      2,
+      117,
+      0,
+      "FLOAT"
+    ],
+    [
+      443,
+      154,
+      3,
+      115,
+      0,
+      "YIU_UPSCALE_LOOP_STATE"
+    ],
+    [
+      444,
+      154,
+      3,
+      153,
+      1,
+      "YIU_UPSCALE_LOOP_STATE"
+    ],
+    [
+      445,
+      154,
+      4,
+      113,
+      0,
+      "INT"
+    ],
+    [
+      446,
+      154,
+      5,
+      114,
+      0,
+      "INT"
+    ],
+    [
+      447,
+      154,
+      6,
+      145,
+      0,
+      "IMAGE"
+    ],
+    [
+      448,
+      154,
+      7,
+      109,
+      0,
+      "STRING"
+    ],
+    [
+      449,
+      156,
+      0,
+      2,
+      0,
+      "IMAGE"
+    ],
+    [
+      450,
+      156,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      451,
+      156,
+      0,
+      28,
+      0,
+      "IMAGE"
+    ],
+    [
+      452,
+      156,
+      0,
+      120,
+      0,
+      "IMAGE"
+    ],
+    [
+      453,
+      156,
+      0,
+      142,
+      1,
+      "IMAGE"
+    ],
+    [
+      454,
+      156,
+      0,
+      154,
+      0,
+      "IMAGE"
+    ],
+    [
+      455,
+      156,
+      1,
+      2,
+      1,
+      "MASK"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "假装有一个背景图片， 并且在图片上绘制了遮罩。",
+      "bounding": [
+        680,
+        -1060,
+        680,
+        940
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "🖊️ Fit Item To Mask : 将item放在 canvas 的 mask 里面",
+      "bounding": [
+        1420,
+        -860,
+        1340,
+        740
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "🟦 Image To Zone Mask : 通过数值设置遮罩大小和位置",
+      "bounding": [
+        1080,
+        -40,
+        560,
+        380
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "🖊️ Image Canvas Placer : 将图像按位置、缩放，放在指定尺寸中，使扩图时设置更直观",
+      "bounding": [
+        680,
+        920,
+        1700,
+        540
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "🔁 Upscale Loop START / END : 循环多次撑图，让图片可以放大到印刷需要的精度",
+      "bounding": [
+        680,
+        1520,
+        1400,
+        1120
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 6,
+      "title": "✂ Item Cropper : 裁切出抠图得到的内容",
+      "bounding": [
+        680,
+        400,
+        1380,
+        440
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 7,
+      "title": "Pretend there is a background image, and draw a mask on the image.",
+      "bounding": [
+        680,
+        -1100,
+        800,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 8,
+      "title": "🖊️ Fit Item To Mask: Place the item inside the mask on the canvas..",
+      "bounding": [
+        1420,
+        -900,
+        800,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 9,
+      "title": "🟦 Image To Zone Mask: Set the mask size and position numerically..",
+      "bounding": [
+        1080,
+        -80,
+        800,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 10,
+      "title": "✂ Item Cropper: Crops out the content obtained from the cutout image..",
+      "bounding": [
+        680,
+        360,
+        800,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 11,
+      "title": "🖊️ Image Canvas Placer: Places an image within a specified size based on its position and scale, making image expansion settings more intuitive..",
+      "bounding": [
+        680,
+        880,
+        1680,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 12,
+      "title": "🔁 Upscale Loop START / END: This loop repeatedly stretches the image to the required printing resolution..",
+      "bounding": [
+        680,
+        1480,
+        940,
+        80
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "workflowRendererVersion": "LG",
+    "ds": {
+      "scale": 0.30735605491428225,
+      "offset": [
+        1020.5099999999977,
+        1103.9230000000002
+      ]
+    },
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "frontendVersion": "1.43.18",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}

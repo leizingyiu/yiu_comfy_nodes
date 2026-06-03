@@ -12,3 +12,21 @@ nodes:
     module: yiu_comfy_nodes.yiu_fit_itm_2_msk
   - class_name: yiuItmCropper
     module: yiu_comfy_nodes.yiu_itm_cropper
+  - class_name: yiuUpscaleLoopStart
+    module: yiu_comfy_nodes.yiu_upscale_loop
+  - class_name: yiuUpscaleLoopEnd
+    module: yiu_comfy_nodes.yiu_upscale_loop
+  - class_name: yiuWhileLoopStart
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuWhileLoopEnd
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuMathInt
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuCompare
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuTilingMeta
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuImageTile
+    module: yiu_comfy_nodes.internal
+  - class_name: yiuImageUntile
+    module: yiu_comfy_nodes.internal

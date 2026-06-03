@@ -1,13 +1,22 @@
 # pyproject.toml
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "yiu_comfy_nodes"
 description = "Useful to me. Might be to you."
-version = "0.0.1+20250710.1"
+version = "26.6.1"
 license = "AGPL-3.0-only"
 dependencies  = ["torch","numpy","Pillow"]
 
 [project.urls]
 Repository = "https://github.com/leizingyiu/yiu_comfy_nodes"
+
+[tool.setuptools]
+packages = ["yiu_comfy_nodes"]
+include-package-data = true
+package-dir = { yiu_comfy_nodes = "yiu_comfy_nodes_impl" }
 
 [tool.comfy]
 PublisherId = "leizingyiu" 
