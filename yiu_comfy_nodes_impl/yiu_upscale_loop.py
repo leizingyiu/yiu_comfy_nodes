@@ -10,7 +10,7 @@ from .utils import (
     compute_tiling_params,
 )
 from .yiu_base_node import YiuBaseNode
-from .internal import yiuImageTile, yiuImageUntile
+from .internal import INTERNAL_NODE_TYPE_NAMES, yiuImageTile, yiuImageUntile
 
 try:
     from comfy_execution.graph_utils import GraphBuilder
@@ -496,7 +496,7 @@ class yiuUpscaleLoopEnd(YiuBaseNode):
 
         graph = GraphBuilder()
         while_close = graph.node(
-            "yiuWhileLoopEnd",
+            INTERNAL_NODE_TYPE_NAMES["while_loop_end"],
             flow=flow,
             condition=bool(should_continue),
             recurse_target=str(recurse_target),

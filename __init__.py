@@ -9,12 +9,17 @@ if _THIS_DIR not in sys.path:
 
 
 def _load_impl_package():
+    errors = []
     for name in ("yiu_comfy_nodes_impl", "yiu_comfy_nodes"):
         try:
             return importlib.import_module(name)
-        except Exception:
+        except Exception as exc:
+            errors.append(f"{name}: {exc!r}")
             continue
-    raise ImportError("Neither 'yiu_comfy_nodes_impl' nor 'yiu_comfy_nodes' could be imported")
+    raise ImportError(
+        "Neither 'yiu_comfy_nodes_impl' nor 'yiu_comfy_nodes' could be imported. "
+        + "; ".join(errors)
+    )
 
 
 _impl = _load_impl_package()

@@ -35,6 +35,16 @@ except Exception:
     ALL_NODE_CLASS_MAPPINGS = {}
 
 DEBUG__INTERNAL_LOOP = False
+INTERNAL_CATEGORY = "_yiu_nodes/internal"
+INTERNAL_NODE_TYPE_NAMES = {
+    "while_loop_start": "__y_i_u__while_loop_start",
+    "while_loop_end": "__y_i_u__while_loop_end",
+    "math_int": "__y_i_u__math_int",
+    "compare": "__y_i_u__compare",
+    "tiling_meta": "__y_i_u__tiling_meta",
+    "image_tile": "__y_i_u__image_tile",
+    "image_untile": "__y_i_u__image_untile",
+}
 
 
 def _debug_print(msg):
@@ -78,7 +88,7 @@ def _report_debug_event(hypothesis_id, location, msg, data):
 
 
 class yiuWhileLoopStart:
-    CATEGORY = "yiu_nodes/_internal"
+    CATEGORY = INTERNAL_CATEGORY
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -102,7 +112,7 @@ class yiuWhileLoopStart:
 
 
 class yiuWhileLoopEnd:
-    CATEGORY = "yiu_nodes/_internal"
+    CATEGORY = INTERNAL_CATEGORY
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -195,7 +205,7 @@ class yiuWhileLoopEnd:
                 display_id = self._resolve_node_id(dynprompt.get_display_node_id(parent_id), dynprompt) or parent_id
                 display_node = dynprompt.get_node(display_id)
                 class_type = display_node["class_type"]
-                if class_type not in ["yiuWhileLoopEnd"]:
+                if class_type not in [INTERNAL_NODE_TYPE_NAMES["while_loop_end"]]:
                     parent_ids.append(display_id)
                 if parent_id not in upstream:
                     upstream[parent_id] = []
@@ -416,7 +426,7 @@ class yiuWhileLoopEnd:
 
 
 class yiuMathInt:
-    CATEGORY = "yiu_nodes/_internal"
+    CATEGORY = INTERNAL_CATEGORY
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -439,7 +449,7 @@ class yiuMathInt:
 
 
 class yiuCompare:
-    CATEGORY = "yiu_nodes/_internal"
+    CATEGORY = INTERNAL_CATEGORY
 
     @classmethod
     def INPUT_TYPES(cls):
@@ -470,7 +480,7 @@ class yiuCompare:
 
 
 class yiuTilingMeta(YiuBaseNode):
-    CATEGORY = "_internal"
+    CATEGORY = INTERNAL_CATEGORY
     tooltips_dict = {
         "zh-CN": {
             "input": {
@@ -550,7 +560,7 @@ class yiuTilingMeta(YiuBaseNode):
 
 
 class yiuImageTile(YiuBaseNode):
-    CATEGORY = "_internal"
+    CATEGORY = INTERNAL_CATEGORY
     tooltips_dict = {
         "zh-CN": {
             "input": {
@@ -620,7 +630,7 @@ class yiuImageTile(YiuBaseNode):
 
 
 class yiuImageUntile(YiuBaseNode):
-    CATEGORY = "_internal"
+    CATEGORY = INTERNAL_CATEGORY
     tooltips_dict = {
         "zh-CN": {
             "input": {
