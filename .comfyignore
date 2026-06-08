@@ -1,0 +1,9 @@
+.github/
+.tracking
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.dbg/
+.vscode/
+

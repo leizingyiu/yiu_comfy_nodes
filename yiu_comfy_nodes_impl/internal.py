@@ -1,7 +1,5 @@
-import json
 import math
 import torch
-import urllib.request
 from .utils import (
     get_current_language,
     get_localized_tooltips,
@@ -53,38 +51,8 @@ def _debug_print(msg):
 
 
 def _report_debug_event(hypothesis_id, location, msg, data):
-    # #region debug-point shared:report-event
-    try:
-        server_url = "http://127.0.0.1:7777/event"
-        session_id = "upscale-loop-regress"
-        try:
-            with open(".dbg/upscale-loop-regress.env", "r", encoding="utf-8") as f:
-                for line in f:
-                    if line.startswith("DEBUG_SERVER_URL="):
-                        server_url = line.split("=", 1)[1].strip() or server_url
-                    elif line.startswith("DEBUG_SESSION_ID="):
-                        session_id = line.split("=", 1)[1].strip() or session_id
-        except Exception:
-            pass
-        payload = {
-            "sessionId": session_id,
-            "runId": "post-fix",
-            "hypothesisId": hypothesis_id,
-            "location": location,
-            "msg": msg,
-            "data": data,
-        }
-        urllib.request.urlopen(
-            urllib.request.Request(
-                server_url,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"},
-            ),
-            timeout=0.2,
-        ).read()
-    except Exception:
-        pass
-    # #endregion
+    # Registry packages should not ship network-based debug hooks.
+    return None
 
 
 class yiuWhileLoopStart:
